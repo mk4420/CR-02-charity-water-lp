@@ -55,21 +55,24 @@
       </div>
     </section>
 
-    <section class="cta-card" id="donation-form">
+    <section class="cta-card" id="payment-form">
       <h2>Make a difference today</h2>
       <p>Your support can help fund safe water access and lasting change for families in need.</p>
-      <a href="#donation-form" class="donate-button">Donate Now</a>
+      <a href="#payment-form" class="donate-button">Donate Now</a>
       <form class="form-card">
         <label for="donor-name">Full name</label>
         <input id="donor-name" type="text" name="donor-name" placeholder="Your name">
 
+        <label for="payment-method">Payment method</label>
+        <input id="payment-method" type="text" name="payment-method" placeholder="Card / bank transfer / PayPal">
+
         <label for="donation-amount">Donation amount</label>
         <input id="donation-amount" type="number" name="donation-amount" min="1" placeholder="25">
 
-        <label for="donation-note">Message</label>
-        <textarea id="donation-note" name="donation-note" rows="3" placeholder="Optional note for the team"></textarea>
+        <label for="payment-note">Payment information</label>
+        <textarea id="payment-note" name="payment-note" rows="3" placeholder="Card last 4 digits, billing zip code, or notes"></textarea>
 
-        <button type="submit" class="form-button">Submit donation</button>
+        <button type="submit" class="form-button">Submit payment information</button>
       </form>
     </section>
 
