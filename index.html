@@ -28,7 +28,7 @@
           Through transparent giving and real stories, charity: water helps bring safe water,
           health, and hope to families who deserve a brighter future.
         </p>
-        <a href="#donate" class="cta-button">JOIN THE MOVEMENT</a>
+        <a href="#contact-form" class="cta-button">JOIN THE MOVEMENT</a>
       </article>
 
       <aside class="hero-image">
@@ -55,10 +55,39 @@
       </div>
     </section>
 
-    <section class="cta-card">
+    <section class="cta-card" id="donation-form">
       <h2>Make a difference today</h2>
       <p>Your support can help fund safe water access and lasting change for families in need.</p>
-      <a href="#top" class="donate-button">Donate Now</a>
+      <a href="#donation-form" class="donate-button">Donate Now</a>
+      <form class="form-card">
+        <label for="donor-name">Full name</label>
+        <input id="donor-name" type="text" name="donor-name" placeholder="Your name">
+
+        <label for="donation-amount">Donation amount</label>
+        <input id="donation-amount" type="number" name="donation-amount" min="1" placeholder="25">
+
+        <label for="donation-note">Message</label>
+        <textarea id="donation-note" name="donation-note" rows="3" placeholder="Optional note for the team"></textarea>
+
+        <button type="submit" class="form-button">Submit donation</button>
+      </form>
+    </section>
+
+    <section class="cta-card" id="contact-form">
+      <h2>Stay connected</h2>
+      <p>Share your contact details and we will reach out with updates, volunteer opportunities, and ways to help.</p>
+      <form class="form-card">
+        <label for="contact-name">Name</label>
+        <input id="contact-name" type="text" name="contact-name" placeholder="Your name">
+
+        <label for="contact-email">Email address</label>
+        <input id="contact-email" type="email" name="contact-email" placeholder="you@example.com">
+
+        <label for="contact-interest">How would you like to help?</label>
+        <textarea id="contact-interest" name="contact-interest" rows="3" placeholder="Volunteer, donate, share our story..."></textarea>
+
+        <button type="submit" class="form-button">Send contact info</button>
+      </form>
     </section>
   </main>
 </body>

@@ -144,6 +144,40 @@ img {
   justify-self: center;
 }
 
+.form-card {
+  display: grid;
+  gap: 0.55rem;
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #efe3cd;
+}
+
+.form-card label {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #24324a;
+}
+
+.form-card input,
+.form-card textarea {
+  width: 100%;
+  border: 1px solid #d8cbb3;
+  border-radius: 10px;
+  padding: 0.75rem;
+  font: inherit;
+  background: #fffaf5;
+}
+
+.form-button {
+  border: none;
+  border-radius: 999px;
+  background: #2e9df7;
+  color: #fff;
+  padding: 0.8rem 1rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
 @media (min-width: 768px) {
   .navbar {
     padding: 1.25rem 1.5rem;
