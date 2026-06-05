@@ -1,111 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
-
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
-
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
-        </div>
-    </section>
-
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
-    </section>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Charity: Water</title>
-
+  <title>Charity: Water Landing Page</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <!-- Similar to the mockup -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-
   <header class="navbar">
-    <div class="logo">
-      <img src="images/charity-water-logo.png" alt="Charity Water Logo">
-    </div>
-
-    <button class="share-btn" aria-label="Share">
-      &#x1F517;
-    </button>
+    <a class="logo" href="#top" aria-label="Charity Water home">
+      <img src="img/cw_logo.png" alt="Charity Water Logo">
+    </a>
+    <button class="share-btn" aria-label="Share this page">🔗</button>
   </header>
 
   <div class="accent-line"></div>
 
-  <main class="hero">
+  <main class="page-shell" id="top">
+    <section class="hero">
+      <article class="hero-content">
+        <p class="eyebrow">Safe water. Stronger communities.</p>
+        <h1>Clean Water.<br>Real Impact.<br>Lasting Change.</h1>
+        <p class="lead">
+          Through transparent giving and real stories, charity: water helps bring safe water,
+          health, and hope to families who deserve a brighter future.
+        </p>
+        <a href="#donate" class="cta-button">JOIN THE MOVEMENT</a>
+      </article>
 
-    <section class="hero-content">
+      <aside class="hero-image">
+        <img src="img/water-can-transparent.png" alt="Water can illustration for charity water project">
+      </aside>
+    </section>
 
-      <h1>
-        Clean Water.<br>
-        Real Impact.<br>
-        Lasting Change.
-      </h1>
-
+    <section class="story-card">
+      <h2>Why this work matters</h2>
       <p>
-        Through transparent giving and real success stories,
-        charity: water empowers supporters to bring clean water
-        and lasting hope to communities in need.
+        Every donation helps build reliable wells, repair broken systems, and train local leaders.
+        Small gifts add up to life-changing access to clean water for entire communities.
       </p>
-
-      <a href="#donate" class="cta-button">
-        JOIN THE MOVEMENT
-      </a>
-
     </section>
 
-    <section class="hero-image">
-
-      <img
-        src="images/water-project.jpg"
-        alt="Workers standing beside a water drilling rig">
-
+    <section class="impact-card" id="donate">
+      <h2>Real impact, one family at a time</h2>
+      <div class="impact-grid">
+        <img src="img/cw_logo-2.png" alt="Charity Water community support illustration" class="impact-image">
+        <p>
+          Amina used to walk long distances to collect water for her family. With reliable wells,
+          she now has more time for school, work, and health — and her community thrives.
+        </p>
+      </div>
     </section>
 
+    <section class="cta-card">
+      <h2>Make a difference today</h2>
+      <p>Your support can help fund safe water access and lasting change for families in need.</p>
+      <a href="#top" class="donate-button">Donate Now</a>
+    </section>
   </main>
-
 </body>
 </html>
